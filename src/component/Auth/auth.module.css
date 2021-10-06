@@ -1,0 +1,41 @@
+
+.login_form{
+  padding: 10px;
+}
+.field{
+  margin-bottom: 10px;
+}
+
+.field input{
+  padding: 9px 0 7px 8px;
+  font-size: 12px;
+  width: 260px;
+}
+.login_form button{
+    padding: 9px 0 7px 8px;
+    background-color: #0095f6;
+    border: 0;
+    width: 270px;
+    font-weight: bold;
+    color: #ffff;
+    border-radius: 5px;
+}
+.login_form button:hover{
+  background-color: #0663a1;
+}
+.link{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.link p{
+  font-size: 14px;
+  margin-right: 5px;
+}
+.activeLink{
+  color: #0095f6;
+  text-decoration: none;
+  font-size: 14px;
+}
+

@@ -1,0 +1,84 @@
+.usersBlock{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.usersBlock .users{
+   display: flex;
+   justify-content: space-between;
+   background-color: white;
+   padding: 30px;
+}
+.addUser{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+}
+.addUser button{
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: #0095f6;
+    color: #ffff;
+    font-weight: bold;
+    border: 0;
+}
+.addUser button:hover{
+    background-color: #0663a1;
+  }
+
+.users{
+    margin-bottom: 20px;
+}
+
+.users .info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.users .info span{
+    margin-bottom: 10px;
+}
+.info .name{
+    font-size: 24px;
+    color: #0095f6;
+}
+
+.info .phone{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.users .change_info{
+    display: flex;
+    align-items: center;
+}
+
+.change_info .delete{
+    background-color: rgb(190, 88, 88);
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: bold;
+    border: 0;
+}
+.delete:hover{
+    background-color: red;
+
+}
+
+.change_info .change{
+    background-color: #0095f6;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: bold;
+    border: 0;
+    margin-left: 5px;
+}
+.change:hover{
+    background-color: #0663a1;
+}

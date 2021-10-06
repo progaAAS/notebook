@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 50px;
+    padding: 0px 110px 0 110px;
+}
+.navbar h1{
+    margin: 0;
+}
+.navbar__name{
+    display: flex;
+    align-items: center;
+}
+
+.navbar__name button{
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    background-color: #0095f6;
+    color: #ffff;
+    font-weight: bold;
+    border: 0;
+}
+.navbar__name button:hover{
+  background-color: #0663a1;
+}
+
+.navbar__name span{
+    font-weight: bold;
+    margin-right: 10px;
+}
