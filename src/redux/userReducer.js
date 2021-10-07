@@ -1,6 +1,7 @@
 import { authAPI } from "../api/api";
+import { setUsers } from "./contactsRedusers";
 
-let initialState = {
+const initialState = {
     id: null,
     name: null,
     error: false,
@@ -68,6 +69,7 @@ export const getInfoUser = () => (dispatch) => {
 export const logOutAction = () => (dispatch) =>{
     localStorage.removeItem("id");
     dispatch(setAuth(false))
+    dispatch(setUsers(null))
 }
 
 export const setAuth = (isAuth) => ({

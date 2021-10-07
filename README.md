@@ -9,7 +9,7 @@ git clone https://github.com/progaAAS/notebook.git
 В папке с проектом в терминале прописываем: npm install
 
 ##Запускаем json server
-В папке с проектом в терминале прописываем: npx json-server --watch public/db.json --port=3002
+В папке с проектом в терминале прописываем: npx json-server --watch db.json --port=3002
 
 ##Запускаем приложение
 В папке с проектом в терминале прописываем: npm start

@@ -9,20 +9,20 @@ import { useEffect } from 'react';
 import { getInfoUser } from './redux/userReducer';
 import { useDispatch } from 'react-redux';
 
-
 function App() {
   const dispatch = useDispatch();
+  
   useEffect(() => {
-          dispatch(getInfoUser())
-    }, [])
+    dispatch(getInfoUser())
+  }, [])
+
   return (
     <div className="App">
       <Switch>
-        <WithLayout layout={Public} exact path="/" component={Login}/>
-        <WithLayout layout={Public} exact path="/singup" component={SingUp}/>
+        <WithLayout Layout={Public} exact path="/" AuthComponent={Login}/>
+        <WithLayout Layout={Public} exact path="/singup" AuthComponent={SingUp}/>
         <Route exact path="/users" component={UsersPage}/>
       </Switch>
-      
     </div>
   );
 }
